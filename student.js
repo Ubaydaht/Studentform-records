@@ -34,7 +34,7 @@ function addStudent() {
     courses,
   };
 if (firstname == "" || lastname == '' || email == "" || matricno == "" || course1 == "" || course2 == "" || course3 == ""|| course4 == "" || gender == "--select gender --" ){
-    alert("hadb,b,dv")
+    alert("Fill all input fields")
 }else{
   studentInfos.push(studentInfo);
   console.log(studentInfos);
